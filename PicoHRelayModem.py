@@ -9,7 +9,7 @@ relay(1)
 led.value(1)
 
 while True:
-    utime.sleep(86400)
+    utime.sleep(86400) # Sleep one day (in seconds)
  
     # Turn off and back on again
     relay(0)
